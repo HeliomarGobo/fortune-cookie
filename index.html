@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Fortune Cookie</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Dancing+Script&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="home">
+        <h1>What's your luck?</h1>
+        <p>Open the cookie and find out!</p>
+        <button id="img">
+          <img
+            id="cookie"
+            src="./assets/fortune-cookie.svg"
+            alt="Imagem de Biscoito"
+          />
+        </button>
+      </div>
+
+      <div class="luck hide">
+        <h1>Here's your luck today:</h1>
+        <div class="message">
+          <p>O mérito da derrota é todinho seu, orgulhe-se.</p>
+        </div>
+
+        <img src="./assets/opened-cookie.svg" alt="Imagem de biscoito aberto" />
+        <button id="openCookie">Open another cookie</button>
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
